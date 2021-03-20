@@ -24,6 +24,7 @@
 
 .contact__link:hover {
     text-decoration: underline;
+    color: #000000;
 }
 
 select {
@@ -56,6 +57,7 @@ option {
     display: flex;
     list-style-type: none;
     padding: 0;
+    margin-top: 16px;
 }
     
 .nav__link {
@@ -70,7 +72,9 @@ option {
 
 .nav__link:hover {
     text-decoration: underline;
+    color: #000000;
 }
+
 
 .showrooms {
     margin: 30px 10px 38px 390px;
@@ -92,7 +96,9 @@ option {
 
 .showrooms__link:hover {
     text-decoration: underline;
+    color: #000000;
 }
+
 
 .basket {
     margin: 30px 30px;
@@ -137,6 +143,7 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     height: 940px;
+    margin-top: 210px;
 }
 .furniture__container {
     padding: 2px 5px;
@@ -151,6 +158,16 @@ p {
     text-decoration: underline;
 }
 
+.furniture__name {
+    color: #1A1A1A;
+    text-decoration: none;
+}
+
+.furniture__name:hover {
+    text-decoration: underline;
+    color: #1A1A1A;
+}
+
 .counting {
     width: 900px;
     text-align: center;
@@ -163,6 +180,103 @@ p {
     margin-top: 27px;
 }
 
+
+.carousel, .slide {
+    margin-top: 288px;
+}
+
+.functions {
+    width: 1090px;
+    margin-top: 83px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-size: 48px;
+    color: #1A1A1A;
+}
+
+.get {
+    color: #46856E;
+    font-size: 14px;
+}
+
+.info__touch {
+    display: flex;
+    margin-top: 59px;
+}
+
+.touch__block {
+    width: 324px;
+    height: 330px;
+    padding: 5px;
+    margin: 40px;
+    text-align: center;
+}
+
+.touch__h3 {
+    font-size: 24px;
+    margin-top: 26px;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.touch__info {
+    font-size: 16px;
+    color: #aaa;
+    text-align: left;
+}
+
+
+.container__reviews {
+    position: relative;
+    text-align: center;
+    margin-top: 240px;
+    color: #F4F4F4;
+    /* background: url(/img/women.jpg); */
+}
+
+
+.reviews {
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    bottom: 534px;
+    left: 200px;
+}
+
+.rating {
+    margin-top: 32px;
+    text-align: left;
+    
+
+}
+
+.response {
+     
+}
+
+.response__text {
+
+}
+
 .compani {
- 
+  
+}
+
+.all-reviews__block {
+    margin-top: 39px;
+}
+
+.all-reviews {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 100px;
+}
+
+.all-reviews:hover {
+    text-decoration: underline;
 }
